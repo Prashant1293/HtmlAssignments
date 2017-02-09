@@ -1,0 +1,59 @@
+h1{
+color: green;
+font-size: 60px;
+}
+
+body {
+
+background-image: url("downloadBckgrnd.jpg");
+background-size: 50%,100%;
+}
+
+
+.rectangle {
+  font-size: 30px;
+  align : center;
+  line-height: 35px;
+  text-align: center;
+  background: orange;
+
+}
+
+.rectangle:hover{
+color:orange
+}
+
+a:hover{
+color: blue
+}
+
+div.relativeLeft{
+position: relative;
+    left: 10px;
+    color:white
+}
+
+h1:hover{
+color: yellow
+}
+
+.positioning{
+margin: 50px
+
+}
+
+.text-glow{
+ font-size:4em;
+ color: red;
+ font-family:Arial;
+   }
+
+ .text-glow:hover, .text-glow:focus, .text-glow:active {
+     -webkit-stroke-width: 5.3px;
+     -webkit-stroke-color: #FFFFFF;
+     -webkit-fill-color: #FFFFFF;
+     text-shadow: 9px 8px 50px orange ;
+     -webkit-transition: width 0.3s; /*Safari & Chrome*/
+     transition: width 0.3s;
+     -moz-transition: width 0.3s; /* Firefox 4 */
+          }

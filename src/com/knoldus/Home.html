@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="external.css">
+    <script src="external.js">
+    </script>
+
 </head>
 <body bgcolor="green">
-
-<table align="left" border="2" width="200" height="">
-    <caption>List Of Contents </caption>
+<table align="left" border="2"  width="100%">
+    <caption style="color:white"><b>List Of Contents</b> </caption>
     <tr>
         <td bgcolor="lightblue"> Chapter 1  </td>
         <td bgcolor="seablue"><a href="AboutMe.txt"> Learn me </a> </td>
@@ -21,5 +24,33 @@
         <td bgcolor="seablue"><a href="external.css"> Guess This </a> </td>
     </tr>
 </table>
+<br/>
+<form name="arraycontainer" >
+    <hr color="orange">
+    <label>Subjects::</label><br/>
+
+    <input type="checkbox" name ="subjects" checked ><b style="color:white"> 1.Computers</b><br/>
+    <input type="checkbox" name ="subjects"><b style="color:white">2.CyberSecurity</b><br/>
+    <input type="checkbox" name ="subjects"><b style="color:white">3.NuclearPhysics</b><br/>
+    <input type="checkbox" name ="subjects"><b style="color:white">4.AstroPhysics</b><br/>
+    <hr color="white">
+
+    <label>Companies::</label><br/>
+
+    <input type="checkbox" name ="company" checked><b style="color:white">1.Knoldus</b><br/>
+    <input type="checkbox" name ="company"><b style="color:white">2.Intelligrape</b><br/>
+    <input type="checkbox" name ="company"><b style="color:white">3.Nagarro</b><br/>
+    <input type="checkbox" name ="company"><b style="color:white">4.IndusValleyPartners</b><br/>
+    <hr color="green">
+
+    <input type="button" value="submit" onclick="calculateArray()">
+</form>
+<div class="relativeLeft">
+    Web Design : Knoldus LLP Ltd.
+</div>
+<div class="relativeLeft">
+    &#169 Knoldus LLP Ltd.
+</div>
+
 </body>
 </html>

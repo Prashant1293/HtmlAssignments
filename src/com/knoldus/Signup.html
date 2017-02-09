@@ -1,0 +1,107 @@
+<html>
+<head>
+    <title>
+        Welcome Visitor
+    </title>
+    <script src="external.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="external.css">
+
+</head>
+<body>
+<form name="myForm" onsubmit="validateForm()" id="MyForm" method="post">
+    <table id="LoginTable">
+        <tr>
+            <th style="color:white"><b>User Signup</b> </th>
+        </tr>
+
+        <tr>
+            <td>
+                <label id="userLabel">User Name</label>
+            </td>
+            <td>
+                <input type="text" name="username" id="userName"  value="NAME">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="agelabel">Age</label>
+            </td>
+            <td>
+                <input type="text" name="age" id="userAge" value="AGE">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="genderlabel">Gender</label>
+            </td>
+            <td>
+                <input type="text" name="gender" id="userGender" value="GENDER" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="email">Email</label>
+            </td>
+            <td>
+                <input type="email" name="email" id="userEmail" value="EMAIL">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="birthdate">Date Of Birth</label>
+            </td>
+            <td>
+                <input type="date" name="birthdate" id="userBirthdate" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="address">Address</label>
+            </td>
+            <td>
+                <input type="text" name="address" id="userAddress" value="ADDRESS">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label id="qualaification">Qualifications::</label>
+            </td>
+            <td>
+                <input type="checkbox" name="qualification" id="Graduate" checked onclick="addTOArray">Graduate
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input type="checkbox" name="qualification" id="PostGraduate" >PostGraduate
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input type="checkbox" name="qualification" id="PHd" >Doctorate
+            </td>
+        </tr>
+
+
+        <tr>
+    <th>
+    <input type="submit" value="Signup" id="signupButton" >
+    </th>
+</tr>
+
+    </table>
+</form>
+<div class="relativeLeft">
+    Web Design : Knoldus LLP Ltd.
+</div>
+<div class="relativeLeft">
+    &#169 Knoldus LLP Ltd.
+</div>
+
+
+</body>
+</html>

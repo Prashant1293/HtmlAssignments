@@ -19,12 +19,8 @@ background-size: 50%,100%;
 
 }
 
-.rectangle:hover{
-color:orange
-}
-
 a:hover{
-color: blue
+color: green
 }
 
 div.relativeLeft{
@@ -57,3 +53,8 @@ margin: 50px
      transition: width 0.3s;
      -moz-transition: width 0.3s; /* Firefox 4 */
           }
+
+  label{
+  color:white
+  }
+
